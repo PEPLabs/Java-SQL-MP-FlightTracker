@@ -1,7 +1,7 @@
-package Application.DAO;
+package application.DAO;
 
-import Application.Model.Flight;
-import Application.Util.ConnectionUtil;
+import application.Model.Flight;
+import application.Util.ConnectionUtil;
 
 import java.sql.*;
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
-package Application;
+package application;
 
-import Application.Controller.FlightController;
-import Application.Util.ConnectionUtil;
+import application.Controller.FlightController;
+import application.Util.ConnectionUtil;
 import io.javalin.Javalin;
 
 import java.sql.Connection;

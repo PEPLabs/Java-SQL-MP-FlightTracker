@@ -1,7 +1,7 @@
-package Application.Controller;
+package application.Controller;
 
-import Application.Model.Flight;
-import Application.Service.FlightService;
+import application.Model.Flight;
+import application.Service.FlightService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.javalin.Javalin;

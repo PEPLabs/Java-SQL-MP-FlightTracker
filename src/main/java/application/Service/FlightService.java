@@ -1,7 +1,7 @@
-package Application.Service;
+package application.Service;
 
-import Application.Model.Flight;
-import Application.DAO.FlightDAO;
+import application.Model.Flight;
+import application.DAO.FlightDAO;
 
 import java.util.List;
 

@@ -1,30 +1,17 @@
 package application;
 
-
-import Application.Application;
-import Application.DAO.FlightDAO;
-import Application.Model.Flight;
-import Application.Service.FlightService;
+import application.DAO.FlightDAO;
+import application.Model.Flight;
+import application.Service.FlightService;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.Mock;
 import org.mockito.Mockito;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * This class tests using the dummy data inserted as part of the Application.Application.databaseSetup() method.
- * It contains the following records:
- *      (1, 'tampa', 'dallas'),
- *      (2, 'tampa', 'reston'),
- *      (3, 'reston', 'morgantown'),
- *      (4, 'morgantown', 'dallas'),
- *      (5, 'tampa', 'dallas'),
- *      (6, 'dallas', 'tampa')
- */
 public class FlightAppTest {
     public FlightDAO flightDAO;
     public FlightDAO mockFlightDAO;
